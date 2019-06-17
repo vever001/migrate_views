@@ -1,0 +1,9 @@
+/.DS_Store
+/.idea
+/build/
+/composer.lock
+/docker-compose.*.yml
+/grumphp.yml
+/phpunit.xml
+/runner.yml
+/vendor

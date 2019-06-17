@@ -1,0 +1,8 @@
+name: Migrate Views
+type: module
+description: 'Integration between Migrate and Views.'
+core: 8.x
+package: Migration
+dependencies:
+  - drupal:migrate
+  - migrate_plus:migrate_plus
