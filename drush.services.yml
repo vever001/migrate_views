@@ -1,0 +1,6 @@
+services:
+  migrate_views.commands:
+    class: \Drupal\migrate_views\Commands\MigrateViewsCommands
+    arguments: ['@plugin.manager.migration', '@entity_type.manager']
+    tags:
+      - { name: drush.command }

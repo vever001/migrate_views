@@ -1,0 +1,6 @@
+services:
+  migrate_views.route_subscriber:
+    class: Drupal\migrate_views\Routing\RouteSubscriber
+    arguments: []
+    tags:
+      - { name: event_subscriber }

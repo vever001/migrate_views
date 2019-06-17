@@ -7,7 +7,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "drupal/migrate_plus": "^4"
+        "drupal/migrate_plus": "^4",
+        "drupal/migrate_tools": "^4"
     },
     "require-dev": {
         "composer/installers": "^1.2",
@@ -51,6 +52,11 @@
             "build/profiles/contrib/{$name}": ["type:drupal-profile"],
             "build/themes/contrib/{$name}": ["type:drupal-theme"],
             "drush/Commands/{$name}": ["type:drupal-drush"]
+        },
+	"drush": {
+            "services": {
+                "drush.services.yml": "^9"
+            }
         }
     },
     "config": {
